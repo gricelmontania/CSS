@@ -1,0 +1,60 @@
+/* Todos los elementos de la pagina */
+* {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+      background-color: lightblue;
+  }
+  header{
+      background-color: #07689f;
+      padding: 50px;
+      
+     
+  }
+     
+  
+  
+  /* Todos los parrafos de la pagina */
+   p {
+color: #555;
+line-height: 2;
+
+}
+
+/* Todos los párrafos contenidos en #primero */
+ #primero p{
+color: #369;
+background-color: mintcream;
+
+}
+
+/* Todos los enlaces la pagina */
+a {
+color: #C30;
+text-decoration: none;
+
+}
+
+/* Los elementos <em> contenidos en #primero */
+  #primero em {
+color: #0000BB;
+background-color: #FFFFCC;
+}
+
+/* Todos los elementos <em> con la clase "especial" en toda la pagina */
+.especial {
+color: #FFFF00;
+background: #000000;
+}
+
+/* Todos los elementos <span> contenidos en la clase "normal" */
+span{
+font-weight: bold;
+text-shadow: 2px 2px 5px #0000BB;
+}
+#segundo{
+  background-color: mintcream;
+}
+
